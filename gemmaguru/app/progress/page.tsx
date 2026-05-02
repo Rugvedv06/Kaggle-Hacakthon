@@ -1,8 +1,3 @@
-export default function ProgressPage() {
-  return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <h1 className="text-4xl font-bold">Progress Dashboard</h1>
-      <p>Dashboard + charts placeholder.</p>
-    </main>
-  );
+export default function Progress() { 
+  return <div className='p-6'><h1>Progress Page</h1></div>; 
 }

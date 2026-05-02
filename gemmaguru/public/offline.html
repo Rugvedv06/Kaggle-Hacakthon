@@ -1,12 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Offline - GemmaGuru</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GemmaGuru — Offline</title>
+  <style>
+    body { font-family: sans-serif; display:flex; flex-direction:column;
+           align-items:center; justify-content:center; min-height:100vh;
+           background:#f0fdf4; color:#085041; text-align:center; padding:2rem; }
+    h1 { font-size:1.5rem; margin-bottom:1rem; }
+    p  { color:#0F6E56; max-width:300px; line-height:1.6; }
+    button { margin-top:1.5rem; padding:0.75rem 2rem; background:#1D9E75;
+             color:white; border:none; border-radius:8px; font-size:1rem;
+             cursor:pointer; }
+  </style>
 </head>
 <body>
-    <h1>You are offline</h1>
-    <p>Please check your internet connection.</p>
+  <h1>You're offline</h1>
+  <p>GemmaGuru works without internet. Please open the app — it has everything saved locally.</p>
+  <button onclick="window.location.reload()">Try again</button>
 </body>
 </html>

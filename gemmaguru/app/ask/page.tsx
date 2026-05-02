@@ -1,8 +1,3 @@
-export default function AskPage() {
-  return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <h1 className="text-4xl font-bold">Ask Screen</h1>
-      <p>Main chat/ask screen placeholder.</p>
-    </main>
-  );
+export default function Ask() { 
+  return <div className='p-6'><h1>Ask Page</h1></div>; 
 }
